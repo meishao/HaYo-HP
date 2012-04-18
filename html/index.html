@@ -1,0 +1,189 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>home</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link href="style.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript" src="js/easySlider1.5.js"></script>
+<script type="text/javascript" charset="utf-8">
+// <![CDATA[
+$(document).ready(function(){	
+	$("#slider").easySlider({
+		controlsBefore:	'<p id="controls">',
+		controlsAfter:	'</p>',
+		auto: true, 
+		continuous: true
+	});	
+});
+// ]]>
+</script>
+<style type="text/css">
+.gallery { width:860px; height:250px; margin:0 auto; padding:0; }
+#slider { margin:0; padding:0; list-style:none; }
+#slider ul,
+#slider li { margin:0; padding:0; list-style:none; }
+/* 
+    define width and height of list item (slide)
+    entire slider area will adjust according to the parameters provided here
+*/
+#slider li { width:860px; height:250px; overflow:hidden; }
+p#controls { margin:0; padding:0; position:relative; }
+#prevBtn { display:block; margin:0; overflow:hidden; width:16px; height:26px; position:absolute; left:-40px; top:-150px; }
+#nextBtn { display:block; margin:0; overflow:hidden; width:16px; height:26px; position:absolute; left: 880px; top:-150px; }
+#prevBtn a { display:block; width:16px; height:26px; background:url(images/l_arrow.gif) no-repeat 0 0; }
+#nextBtn a { display:block; width:16px; height:26px; background:url(images/r_arrow.gif) no-repeat 0 0; }
+</style>
+</head>
+<body>
+<div class="main">
+  <div class="header">
+    <div class="block_header">
+      <div class="logo"><a href="index.html"><img src="images/logo.gif" width="277" height="143" border="0" alt="logo" /></a></div>
+      <div class="search">
+        <form id="form1" name="form1" method="post" action="">
+          <label><span>
+            <input name="q" type="text" class="keywords" id="textfield" maxlength="50" value="搜尋..." />
+            </span>
+            <input name="b" type="image" src="images/search.gif" class="button" />
+          </label>
+        </form>
+      </div>
+      <div class="menu">
+        <ul>
+          <li><a href="index.html" class="active"><span>首頁TOP</span></a></li>
+          <li><a href="about.html"><span> 關於我們</span></a></li>
+          <li><a href="services.html"><span>服務一覽</span></a></li>
+          <li><a href="Portfolio.html"><span>產品開發</span></a></li>
+          <li><a href="contact.html"><span>聯繫我們</span></a></li>
+        </ul>
+        <div class="clr"></div>
+      </div>
+      <div class="clr"></div>
+    </div>
+  </div>
+  <div class="slider_top">
+    <div class="header_text">
+      <div class="gallery">
+        <div id="slider">
+          <ul>
+            <li>
+              <div class="div">
+                <div class="left1">
+                  <h2>為您的業務打造貼身的IT解決方案！</h2>
+                  <p> Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).</p>
+                  <p><a href="#"><img src="images/Sing_up.gif" alt="picture" width="116" height="35" border="0" /></a></p>
+                </div>
+                <img src="images/simple_img_1.jpg" alt="screen 1" width="416" height="240" border="0" class="screen"  /> </div>
+            </li>
+            <li>
+              <div class="div">
+                <div class="left1">
+                  <h2>專業的技術團隊為您的IT系統護航！</h2>
+                  <p class="uli"> Sed congue, dui vel tristique mollis.</p>
+                  <p class="uli"> Morbi eget sem. Nam mollis. </p>
+                  <p class="uli"> Donec sed velit ut tellus fermentum interdum.<br />
+                  </p>
+                  <p><a href="#"><br />
+                    <br />
+                    <img src="images/Sing_up.gif" alt="picture" width="116" height="35" border="0" /></a></p>
+                </div>
+              <img src="images/simple_img_2.jpg" alt="screen 1" width="416" height="240" border="0" class="screen"  /> </div>
+            </li>
+            <li>
+              <div class="div">
+                <div class="left1">
+                  <h2>領先的IT技術讓您更具市場競爭力！</h2>
+                  <p>Lorem Ipsum as their default model text, and a search for uncover many web sites still in their infancy. Various versions have evolved over the years.</p>
+                  <p><a href="#"><img src="images/Sing_up.gif" alt="picture" width="116" height="35" border="0" /></a></p>
+                </div>
+              <img src="images/simple_img_3.jpg" alt="screen 1" width="416" height="240" border="0" class="screen"  /> </div>
+            </li>
+          </ul>
+          <div class="clr"></div>
+        </div>
+      </div>
+      <div class="clr"></div>
+    </div>
+  </div>
+  <div class="top_bg">
+  <div class="top_bg_resize"><img src="images/img_top.gif" alt="picture" /></div>
+  <div class="clr"></div>
+  </div>
+  <div class="clr"></div>
+  <div class="FBG">
+  <div class="FBG_resize">
+    <div class="Recent">
+    <img src="images/top_img_1.gif" alt="picture" width="61" height="60" />
+<p><strong>領先的IT技术</strong><br />
+  隨時關注最新的IT動向，致力於業務效率最大化，成本最低化，結構最優化。
+  </p>
+    </div>
+    <div class="Recent">
+    <img src="images/top_img_2.gif" alt="picture" width="61" height="60" />
+<p><strong>專業的技術團隊</strong><br />
+  365天24小時為您提供專業的技術支持，讓你不再為系統崩潰，數據丟失煩惱。</p>
+    </div>
+    <div class="Recent">
+    <img src="images/top_img_3.gif" alt="picture" width="61" height="60" />
+<p><strong>多操作系統支持</strong><br />
+  我們的產品及服務，從傳統的PC到流行的iOS,Android移動設備系統都率先支持。
+  </p>
+    </div>
+    <div class="Recent2">
+    <img src="images/top_img_4.gif" alt="picture" width="61" height="60" />
+<p><strong>教育培訓服務</strong><br />
+  提供在線培訓以及上門培訓服務，讓您輕鬆快速駕馭IT。</p>
+    </div>
+    <div class="clr"></div>
+  </div>
+  <div class="clr"></div>
+</div>
+  <div class="clr"></div>
+  <div class="body">
+    <div class="body_resize">
+      <div class="left">
+        <h4>華友IT科技,革新您的業務<br /><h4>
+        <h2><span>Praesent laoreet ornare odioi porta aeanen leo justo varius</span></h2>
+        <p><strong>Sed quis libero massa, vel sagittis augue.</strong> <br />
+        成立于日本，是萬通商事株式會社旗下的IT運營團隊，致力于为用戶提供多平台集成IT解決方案。 注册资本金1000万元日币。</p>
+        <p>Pellentesque fermentum aliquam interdum. Mauris ligula dui, gravida nec tempus mollis, tempor at odio. Ut porttitor, orci sagittis pretium varius, felis sapien pharetra eros, quis fermentum dui ligula eget justo. <a href="#">read more</a></p>
+        <h2>我們的優勢<br />
+       <span> Lorem Ipsum as their default model text...</span></h2>
+       <img src="images/img_1.gif" alt="picture" />
+        <p><strong>IT業務戰略規劃</strong><br />
+        憑藉對IT硬件設備，互聯網，無線通訊，企業基幹管理，電子商務、餐飲、管理諮詢等方面的深厚背景，我們將為企業提供一流水準的一對一的IT業務戰略規劃建議。
+ <a href="#">read more </a></p> <br />
+ <img src="images/img_1.gif" alt="picture" />
+ <p><strong>IT產品開發</strong><br />
+        在導入最新技術的同時，我們也保證絕大部份IT產品都是我們技術團隊自主開發，針對客戶的要求，盡我們最大努力力求打造量身產品。
+ <a href="#">read more </a></p>
+      </div>
+      <div class="right">
+        <h2>Blog updates<br />
+       <span> live from our blog page</span></h2>
+        <p><strong>Lorem Ipsum as their default model text...</strong><br />
+          There are many variations of passages of Lorem Ipsum available, but the majority have suffered.<br />
+          <em><span> 19-11-09 - photography</span></em> - <a href="#">2 comments</a></p>
+        <p><strong>Lorem Ipsum as their default model text...</strong><br />
+There are many variations of passages of Lorem Ipsum available, but the majority have suffered.<br />
+<em><span> 19-11-09 - photography</span></em> - <a href="#">3 comments</a></p>
+      </div>
+      <div class="clr"></div>
+    </div>
+    <div class="clr"></div>
+  </div>
+  <div class="footer">
+  <div class="footer_resize">
+  <p class="leftt">© Copyright 2011-2012 HaYo.jp. All Rights Reserved<br />
+    <a href="#">首頁</a> | <a href="#">聯繫我們</a> | <a href="#">RSS </a></p>
+    <p class="rightt">&nbsp;</p>
+    <div class="clr"></div>
+  <div class="clr"></div>
+</div>
+</div>
+</div>
+
+
+</body>
+</html>
